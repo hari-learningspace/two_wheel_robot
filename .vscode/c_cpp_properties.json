@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/example_ros_msg/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/example_ros_service/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/iotsensor/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/robot_cleaner/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/udemy_pubsub/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/udemy_rosmsg/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/udemy_rosservice/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/udemy_rostopic_assigment/include/**",
+        "/home/hudkmr/Udemy/Intro_to_Ros/catkin_ws/src/ros_packages/usb_cam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
