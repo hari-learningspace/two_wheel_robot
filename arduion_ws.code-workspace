@@ -1,11 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "arduino_ros_hello_world_publisher"
-		},
-		{
-			"name": "drivetrain",
-			"path": "drivetrain"
+			"path": "stm32_arduino"
 		}
 	],
 	"settings": {
