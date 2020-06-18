@@ -3,7 +3,7 @@
 // -------------------Constructors -----------------------------------
 DCMotor::DCMotor(uint8_t pinGroup) : encoder(pinGroup), pinGroup_(pinGroup) {
   // Connect motor to GPIO pins
-  // pinMode(motorPinGroup[pinGroup].motorDir1, OUTPUT); // motor direction
+  pinMode(motorPinGroup[pinGroup].motorDir1, OUTPUT); // motor direction
   // pinMode(motorPinGroup[pinGroup].motorDir2, OUTPUT); // motor direction
   // pinMode(motorPinGroup[pinGroup].enable, OUTPUT);
 
@@ -15,8 +15,8 @@ DCMotor::DCMotor(uint8_t pinGroup) : encoder(pinGroup), pinGroup_(pinGroup) {
   // Start motor power timers
   switch (pinGroup) {
   case 0: {
-    // const esp_timer_create_args_t periodic_timer_args = {.callback =
-    //                                                         &motorISR0};
+    const esp_timer_create_args_t periodic_timer_args = {.callback =
+                                                             &motorISR0};
     // esp_timer_create(&periodic_timer_args, &motorTimer0);
     // esp_timer_start_periodic(
     //    motorTimer0, speedCtrlPeriodMicros); // Time in milliseconds (50)
